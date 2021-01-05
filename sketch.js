@@ -1,4 +1,9 @@
+const Bodies = Matter.Bodies;
+const Engine = Matter.Engine;
+const World = Matter.World;
+const Body = Matter.Body;
 
+var drops = [];
 
 function preload(){
     

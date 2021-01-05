@@ -7,7 +7,7 @@ class Drops {
             isStatic:false,
             restitution: 0
         }
-        this.rain = Bodies.Circle(this.xpos,this.ypos,2,this.options);
+        this.rain = Bodies.circle(this.xpos,this.ypos,2,this.options);
     }
     update(){
         if(this.rain.position.y>height){
